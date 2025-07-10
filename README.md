@@ -60,6 +60,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+---
+
 ## 📝 Input Features
 
 | Feature        | Description                                    |
@@ -74,6 +76,7 @@ streamlit run app.py
 | `FullBath`     | Number of full bathrooms                       |
 | `TotRmsAbvGrd` | Total rooms above ground (excluding bathrooms) |
 
+---
 
 ## 📁 Batch Prediction
 
@@ -86,15 +89,17 @@ LotArea,YearBuilt,OverallQual,OverallCond,GrLivArea,GarageCars,GarageArea,FullBa
 ```
 You'll receive predictions in the app, and also get an option to download the result as a CSV.
 
+---
 
 ## 🔍 Example Output
 
-💰 Price Estimate: $256,840.23
-📏 Confidence Interval: $247,101.03 – $266,452.11
-📍 Location Map
-📊 Radar Chart (vs. average)
-✅ Category breakdown (Low, Medium, High per feature)
+- 💰 Price Estimate: $256,840.23
+- 📏 Confidence Interval: $247,101.03 – $266,452.11
+- 📍 Location Map
+- 📊 Radar Chart (vs. average)
+- ✅ Category breakdown (Low, Medium, High per feature)
 
+---
 
 ## 📦 Requirements
 
@@ -113,4 +118,14 @@ See requirements.txt, but core dependencies include:
 
 ## 📌 Demo
 
-<img width="1920" height="1080" alt="prediction" src="https://github.com/user-attachments/assets/41d43eae-3327-4a9b-bb73-6c9d6bf7128f" />
+<img width="1920" height="950" alt="prediction" src="https://github.com/user-attachments/assets/57c48322-55fb-4000-b9bc-2fd807f1e092" />
+
+<img width="1920" height="946" alt="map" src="https://github.com/user-attachments/assets/17d5a878-9495-4a52-ab28-c0e540d14a72" />
+
+<img width="1920" height="950" alt="radar chart" src="https://github.com/user-attachments/assets/ae04d667-bedb-45e0-947e-7ad66f6e8498" />
+
+<img width="1920" height="943" alt="analysis" src="https://github.com/user-attachments/assets/cad295b0-7994-4a4f-bd15-0cd285075825" />
+
+
+
+
